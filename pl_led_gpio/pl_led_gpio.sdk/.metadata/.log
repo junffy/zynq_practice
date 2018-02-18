@@ -10542,3 +10542,12 @@ Each I/O pin of the AXI GPIO is individually programmable as an input or output 
 
 !ENTRY com.xilinx.sdk.utils 0 0 2018-02-18 17:46:17.804
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-3
+
+!ENTRY com.xilinx.sdk.utils 1 0 2018-02-18 17:52:12.921
+!MESSAGE Executed Webtalk command
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-02-18 17:52:12.934
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-181
+
+!ENTRY com.xilinx.sdk.utils 0 0 2018-02-18 17:52:12.940
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-181
