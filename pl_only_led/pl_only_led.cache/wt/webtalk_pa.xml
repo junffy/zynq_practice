@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Mon Feb 19 06:56:09 2018">
+<application name="pa" timeStamp="Mon Feb 19 13:19:41 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="b95c8992706547ad8b3108e6822db0b0" type="ProjectID"/>
 <property name="ProjectIteration" value="3" type="ProjectIteration"/>
@@ -20,20 +20,22 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="AddSources" value="1" type="JavaHandler"/>
 <property name="AutoConnectTarget" value="3" type="JavaHandler"/>
 <property name="LaunchOpenTarget" value="1" type="JavaHandler"/>
-<property name="LaunchProgramFpga" value="3" type="JavaHandler"/>
+<property name="LaunchProgramFpga" value="4" type="JavaHandler"/>
 <property name="NewProject" value="2" type="JavaHandler"/>
-<property name="OpenHardwareManager" value="1" type="JavaHandler"/>
-<property name="RefreshDevice" value="2" type="JavaHandler"/>
+<property name="OpenHardwareManager" value="2" type="JavaHandler"/>
+<property name="RefreshDevice" value="3" type="JavaHandler"/>
 <property name="RunBitgen" value="2" type="JavaHandler"/>
 <property name="RunSchematic" value="2" type="JavaHandler"/>
 <property name="SaveDesign" value="2" type="JavaHandler"/>
+<property name="ShowView" value="1" type="JavaHandler"/>
 <property name="ViewTaskRTLAnalysis" value="2" type="JavaHandler"/>
 </item>
 <item name="Gui Handlers">
 <property name="BaseDialog_CANCEL" value="2" type="GuiHandlerData"/>
-<property name="BaseDialog_OK" value="13" type="GuiHandlerData"/>
+<property name="BaseDialog_OK" value="15" type="GuiHandlerData"/>
 <property name="BaseDialog_YES" value="4" type="GuiHandlerData"/>
-<property name="CmdMsgDialog_OK" value="2" type="GuiHandlerData"/>
+<property name="CmdMsgDialog_OK" value="4" type="GuiHandlerData"/>
+<property name="CmdMsgDialog_OPEN_MESSAGES_VIEW" value="2" type="GuiHandlerData"/>
 <property name="ConfirmSaveTextEditsDialog_NO" value="2" type="GuiHandlerData"/>
 <property name="CreateConstraintsFilePanel_FILE_NAME" value="2" type="GuiHandlerData"/>
 <property name="CreateSrcFileDialog_FILE_NAME" value="1" type="GuiHandlerData"/>
@@ -50,16 +52,21 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PartChooser_PART_PACKAGE_CHOOSER" value="2" type="GuiHandlerData"/>
 <property name="PartChooser_PART_SPEED_CHOOSER" value="2" type="GuiHandlerData"/>
 <property name="ProgramDebugTab_OPEN_TARGET" value="7" type="GuiHandlerData"/>
-<property name="ProgramDebugTab_PROGRAM_DEVICE" value="6" type="GuiHandlerData"/>
-<property name="ProgramDebugTab_REFRESH_DEVICE" value="4" type="GuiHandlerData"/>
-<property name="ProgramFpgaDialog_PROGRAM" value="4" type="GuiHandlerData"/>
+<property name="ProgramDebugTab_PROGRAM_DEVICE" value="8" type="GuiHandlerData"/>
+<property name="ProgramDebugTab_REFRESH_DEVICE" value="6" type="GuiHandlerData"/>
+<property name="ProgramFpgaDialog_PROGRAM" value="6" type="GuiHandlerData"/>
 <property name="ProjectNameChooser_PROJECT_NAME" value="2" type="GuiHandlerData"/>
 <property name="ProjectTab_RELOAD" value="6" type="GuiHandlerData"/>
 <property name="SaveProjectUtils_CANCEL" value="2" type="GuiHandlerData"/>
 <property name="SaveProjectUtils_DONT_SAVE" value="2" type="GuiHandlerData"/>
 <property name="SignalTablePanel_SIGNAL_TABLE" value="24" type="GuiHandlerData"/>
 <property name="SrcChooserPanel_CREATE_FILE" value="1" type="GuiHandlerData"/>
-<property name="TouchpointSurveyDialog_REMIND_ME_LATER" value="2" type="GuiHandlerData"/>
+<property name="TouchpointSurveyDialog_REMIND_ME_LATER" value="4" type="GuiHandlerData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="7" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="5" type="TclMode"/>
 </item>
 </section>
 </application>

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:54:30 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Feb 20 13:07:37 2018
+# Process ID: 29432
+# Current directory: /home/jun-i/Work/zynq_practice/signal_flip_ipuse/signal_flip_ipuse.runs/design_1_processing_system7_0_0_synth_1
+# Command line: vivado -log design_1_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_processing_system7_0_0.tcl
+# Log file: /home/jun-i/Work/zynq_practice/signal_flip_ipuse/signal_flip_ipuse.runs/design_1_processing_system7_0_0_synth_1/design_1_processing_system7_0_0.vds
+# Journal file: /home/jun-i/Work/zynq_practice/signal_flip_ipuse/signal_flip_ipuse.runs/design_1_processing_system7_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_processing_system7_0_0.tcl -notrace
